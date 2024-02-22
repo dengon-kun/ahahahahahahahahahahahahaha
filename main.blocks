@@ -28,31 +28,31 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field><next><block type="device_pause" id="I^-NCo+Lc~UhI1}U_1@-"><value name="pause"><shadow type="timePicker" id="|k4EB?2)j8YySgCnRx?7"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="goyzO5B{H^?j|ncv9530"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="goyzO5B{H^?j|ncv9530"><field name="LEDS">`
         # # # # # 
         # # # # # 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field><next><block type="device_pause" id="Kg[;~gPEa{dp=Sk+sGHH"><value name="pause"><shadow type="timePicker" id="o/rhU-a-xc%g9sHQl_RV"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="S?Mr(H9k(}D+VFC=Kr/}"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="S?Mr(H9k(}D+VFC=Kr/}"><field name="LEDS">`
         # # # # # 
         # # # # # 
         # # # # # 
         . . . . . 
         . . . . .
-        `</field><next><block type="device_pause" id="=1R`MG4ZE_JxxfC]=:OE"><value name="pause"><shadow type="timePicker" id="=2tg):8AleT|IJe(XYdE"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="|zzO2D}QsKH~~UKH_5U~"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="|zzO2D}QsKH~~UKH_5U~"><field name="LEDS">`
         # # # # # 
         # # # # # 
         # # # # # 
         # # # # # 
         . . . . .
-        `</field><next><block type="device_pause" id="b:w;C(@JA4=W#qkOKjj~"><value name="pause"><shadow type="timePicker" id="JR3ITdpLXD}N]wi@xeU]"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="_Xi5,%Xo/9OPtU[ul;Kw"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="_Xi5,%Xo/9OPtU[ul;Kw"><field name="LEDS">`
         # # # # # 
         # # # # # 
         # # # # # 
         # # # # # 
         # # # # #
-        `</field><next><block type="device_pause" id="@]%c!cUN[cpdmyMTi-ME"><value name="pause"><shadow type="timePicker" id="yPl5*T[jGi%8/qTB$oGL"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="p(cyL9MN|O?_4Z4p5a`U"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="p(cyL9MN|O?_4Z4p5a`U"><field name="LEDS">`
         . # # . . 
         . # . # . 
         . # # . . 
@@ -77,18 +77,24 @@
         # . . # # 
         # . . . #
         `</field><next><block type="device_show_leds" id="O:UG}l@{,i}qAkv(1BC3"><field name="LEDS">`
-        . # # # . 
+        # # # # # 
         . . # . . 
         . . # . . 
         . . # . . 
         . . # . .
         `</field><next><block type="device_show_leds" id=":2JIi[P#g|Tox]8O[A$="><field name="LEDS">`
+        # . . # # 
+        . . # . . 
+        # . . # # 
+        # . . . # 
+        # . # # .
+        `</field><next><block type="device_show_leds" id="0P~b$NC9v5g~B3Pgi+wq"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
-        . . . . .
-        `</field><next><block type="function_call" id="1i#.}2WtETzbt8ot]*7C"><mutation name="点数を表示" functionid="RC0NN;b/N8JA$0kdmp);"><arg name="数値" id="15tyqsqb8yhk5kxvr95so" type="number"></arg></mutation><value name="15tyqsqb8yhk5kxvr95so"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="x5]+#KU/EY*0I8{13dl2"><field name="VAR" id="TBm06cxyCF1)ydL7$b#_">点数</field></block></value><next><block type="device_pause" id="XN3}p-,1a@||MBPAwCwQ"><value name="pause"><shadow type="timePicker" id="lkmO`E;FbTQlZXnq8wZX"><field name="ms">1000</field></shadow></value><next><block type="variables_set" id="Qw}E;Vw9._AOn7Pw:IY{"><field name="VAR" id="!CwE.|hcDDniqQ4a9m4v">判断</field><value name="VALUE"><shadow type="math_number" id="@1=H~rpT5.qfiLx05G$F"><field name="NUM">2</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id=")6aM?7AHrF@^acMW_Dd{" x="313" y="1465"><mutation name="doSomething" functionid="4ggStlcE~QW{yIuwG*sZ"><arg name="テキスト" id="a1451xah04m6zl2eu0wai" type="string"></arg></mutation><field name="function_name">doSomething</field><value name="a1451xah04m6zl2eu0wai"><shadow type="argument_reporter_string" id="wg++aV6?dy^bmlIGl-hO"><field name="VALUE">テキスト</field></shadow></value><statement name="STACK"><block type="controls_if" id="$WcWQ@~SMrbqxXSwiK0l"><mutation elseif="8" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="4YfCtr:dw5#*uwl9qPZ6"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="string_parsefloat" id="{_)QdU99m~;q%)Qd;m:k"><value name="text"><block type="text_join" id=")lAp}FqO/A!Ks3Qy,X?}"><mutation items="1"></mutation><value name="ADD0"><shadow type="text"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="jn6XD%C/R}t#wNmZR%!e"><field name="VALUE">テキスト</field></block></value></block></value></block></value><value name="B"><shadow type="math_number" id="w:=V]Au?]FdeFPyzgRpl"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_number" id="._ipXFTc=~q$y|aPgh[H"><value name="number"><shadow type="math_number" id=";`z{xs)HiKnOUq?q!bs,"><field name="NUM">1</field></shadow></value></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="NNFHBb3TYeQu5#R1~/w."><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="string_parsefloat" id="([lZjx{(L!;E*VA2Bb#I"><value name="text"><block type="text_join" id="F?g/2nC:t68U!O,EsT9$"><mutation items="1"></mutation><value name="ADD0"><shadow type="text"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="g.Q.zY3]6(1{?@IC]^i?"><field name="VALUE">テキスト</field></block></value></block></value></block></value><value name="B"><shadow type="math_number" id=".na%9noW6h#=d~!Y)_]3"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="vMaF3EI$6rQ(y8!gaC3J"><field name="LEDS">`
+        # . # . #
+        `</field><next><block type="function_call" id="1i#.}2WtETzbt8ot]*7C"><mutation name="点数を表示" functionid="RC0NN;b/N8JA$0kdmp);"><arg name="数値" id="15tyqsqb8yhk5kxvr95so" type="number"></arg></mutation><value name="15tyqsqb8yhk5kxvr95so"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="x5]+#KU/EY*0I8{13dl2"><field name="VAR" id="TBm06cxyCF1)ydL7$b#_">点数</field></block></value><next><block type="device_pause" id="XN3}p-,1a@||MBPAwCwQ"><value name="pause"><shadow type="timePicker" id="lkmO`E;FbTQlZXnq8wZX"><field name="ms">2000</field></shadow></value><next><block type="variables_set" id="Qw}E;Vw9._AOn7Pw:IY{"><field name="VAR" id="!CwE.|hcDDniqQ4a9m4v">判断</field><value name="VALUE"><shadow type="math_number" id="@1=H~rpT5.qfiLx05G$F"><field name="NUM">2</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id=")6aM?7AHrF@^acMW_Dd{" x="313" y="1465"><mutation name="doSomething" functionid="4ggStlcE~QW{yIuwG*sZ"><arg name="テキスト" id="a1451xah04m6zl2eu0wai" type="string"></arg></mutation><field name="function_name">doSomething</field><value name="a1451xah04m6zl2eu0wai"><shadow type="argument_reporter_string" id="wg++aV6?dy^bmlIGl-hO"><field name="VALUE">テキスト</field></shadow></value><statement name="STACK"><block type="controls_if" id="$WcWQ@~SMrbqxXSwiK0l"><mutation elseif="8" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="4YfCtr:dw5#*uwl9qPZ6"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="string_parsefloat" id="{_)QdU99m~;q%)Qd;m:k"><value name="text"><block type="text_join" id=")lAp}FqO/A!Ks3Qy,X?}"><mutation items="1"></mutation><value name="ADD0"><shadow type="text"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="jn6XD%C/R}t#wNmZR%!e"><field name="VALUE">テキスト</field></block></value></block></value></block></value><value name="B"><shadow type="math_number" id="w:=V]Au?]FdeFPyzgRpl"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_number" id="._ipXFTc=~q$y|aPgh[H"><value name="number"><shadow type="math_number" id=";`z{xs)HiKnOUq?q!bs,"><field name="NUM">1</field></shadow></value></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="NNFHBb3TYeQu5#R1~/w."><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="string_parsefloat" id="([lZjx{(L!;E*VA2Bb#I"><value name="text"><block type="text_join" id="F?g/2nC:t68U!O,EsT9$"><mutation items="1"></mutation><value name="ADD0"><shadow type="text"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="g.Q.zY3]6(1{?@IC]^i?"><field name="VALUE">テキスト</field></block></value></block></value></block></value><value name="B"><shadow type="math_number" id=".na%9noW6h#=d~!Y)_]3"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="vMaF3EI$6rQ(y8!gaC3J"><field name="LEDS">`
         . # # # . 
         . . . # . 
         . # # # . 

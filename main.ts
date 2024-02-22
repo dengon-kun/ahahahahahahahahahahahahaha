@@ -16,7 +16,6 @@ function Gameover () {
         . . . . .
         . . . . .
         `)
-    basic.pause(100)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -24,7 +23,6 @@ function Gameover () {
         . . . . .
         . . . . .
         `)
-    basic.pause(100)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -32,7 +30,6 @@ function Gameover () {
         . . . . .
         . . . . .
         `)
-    basic.pause(100)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -40,7 +37,6 @@ function Gameover () {
         # # # # #
         . . . . .
         `)
-    basic.pause(100)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -48,7 +44,6 @@ function Gameover () {
         # # # # #
         # # # # #
         `)
-    basic.pause(100)
     basic.showLeds(`
         . # # . .
         . # . # .
@@ -78,21 +73,28 @@ function Gameover () {
         # . . . #
         `)
     basic.showLeds(`
-        . # # # .
+        # # # # #
         . . # . .
         . . # . .
         . . # . .
         . . # . .
         `)
     basic.showLeds(`
+        # . . # #
+        . . # . .
+        # . . # #
+        # . . . #
+        # . # # .
+        `)
+    basic.showLeds(`
         . . . . .
         . . . . .
         . . . . .
         . . . . .
-        . . . . .
+        # . # . #
         `)
     点数を表示(点数)
-    basic.pause(1000)
+    basic.pause(2000)
     判断 = 2
 }
 input.onButtonPressed(Button.A, function () {
