@@ -16,7 +16,6 @@ def Gameover():
         . . . . .
         . . . . .
         """)
-    basic.pause(100)
     basic.show_leds("""
         # # # # #
         # # # # #
@@ -24,7 +23,6 @@ def Gameover():
         . . . . .
         . . . . .
         """)
-    basic.pause(100)
     basic.show_leds("""
         # # # # #
         # # # # #
@@ -32,7 +30,6 @@ def Gameover():
         . . . . .
         . . . . .
         """)
-    basic.pause(100)
     basic.show_leds("""
         # # # # #
         # # # # #
@@ -40,7 +37,6 @@ def Gameover():
         # # # # #
         . . . . .
         """)
-    basic.pause(100)
     basic.show_leds("""
         # # # # #
         # # # # #
@@ -48,7 +44,6 @@ def Gameover():
         # # # # #
         # # # # #
         """)
-    basic.pause(100)
     basic.show_leds("""
         . # # . .
         . # . # .
@@ -78,21 +73,28 @@ def Gameover():
         # . . . #
         """)
     basic.show_leds("""
-        . # # # .
+        # # # # #
         . . # . .
         . . # . .
         . . # . .
         . . # . .
         """)
     basic.show_leds("""
+        # . . # #
+        . . # . .
+        # . . # #
+        # . . . #
+        # . # # .
+        """)
+    basic.show_leds("""
         . . . . .
         . . . . .
         . . . . .
         . . . . .
-        . . . . .
+        # . # . #
         """)
     点数を表示(点数)
-    basic.pause(1000)
+    basic.pause(2000)
     判断 = 2
 
 def on_button_pressed_a():
